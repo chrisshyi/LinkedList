@@ -18,7 +18,7 @@ class LinkedList {
             y->data = temp;
         }
 
-        friend LinkedList<int> sum(const LinkedList<int>& list_1, const LinkedList<int>& list_2); 
+        friend LinkedList<int> sum(const LinkedList<int>&, const LinkedList<int>&); 
         friend LinkedList<int> sum_forward(const LinkedList<int>&, const LinkedList<int>&);
 
     public:
